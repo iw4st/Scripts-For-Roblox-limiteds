@@ -1,0 +1,6 @@
+local args = {
+    [1] = "PurchaseRemote",
+    [2] = "13821942401" -- You can put any id in "", but it may not work in some games
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
